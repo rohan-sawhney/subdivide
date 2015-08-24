@@ -1,0 +1,311 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		32106A461B8A1EC400AA3A86 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32106A451B8A1EC400AA3A86 /* OpenGL.framework */; };
+		32106A481B8A1ED100AA3A86 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32106A471B8A1ED100AA3A86 /* GLUT.framework */; };
+		32106A601B8A562D00AA3A86 /* Subdivider.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 32106A5E1B8A562D00AA3A86 /* Subdivider.cpp */; };
+		32106A6C1B8A8E0800AA3A86 /* Edge.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 32106A611B8A8E0800AA3A86 /* Edge.cpp */; };
+		32106A6D1B8A8E0800AA3A86 /* Face.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 32106A631B8A8E0800AA3A86 /* Face.cpp */; };
+		32106A6E1B8A8E0800AA3A86 /* HalfEdge.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 32106A651B8A8E0800AA3A86 /* HalfEdge.cpp */; };
+		32106A6F1B8A8E0800AA3A86 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 32106A671B8A8E0800AA3A86 /* main.cpp */; };
+		32106A701B8A8E0800AA3A86 /* Mesh.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 32106A681B8A8E0800AA3A86 /* Mesh.cpp */; };
+		32106A711B8A8E0800AA3A86 /* MeshIO.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 32106A6A1B8A8E0800AA3A86 /* MeshIO.cpp */; };
+		32106A751B8A8E1500AA3A86 /* Vertex.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 32106A731B8A8E1500AA3A86 /* Vertex.cpp */; };
+		32106A7F1B8A91D100AA3A86 /* MeshBuilder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 32106A7D1B8A91D100AA3A86 /* MeshBuilder.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		32106A391B8A1EB800AA3A86 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		32106A3B1B8A1EB800AA3A86 /* subdivide */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = subdivide; sourceTree = BUILT_PRODUCTS_DIR; };
+		32106A451B8A1EC400AA3A86 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		32106A471B8A1ED100AA3A86 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
+		32106A5E1B8A562D00AA3A86 /* Subdivider.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Subdivider.cpp; sourceTree = SOURCE_ROOT; };
+		32106A5F1B8A562D00AA3A86 /* Subdivider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Subdivider.h; sourceTree = SOURCE_ROOT; };
+		32106A611B8A8E0800AA3A86 /* Edge.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Edge.cpp; sourceTree = SOURCE_ROOT; };
+		32106A621B8A8E0800AA3A86 /* Edge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Edge.h; sourceTree = SOURCE_ROOT; };
+		32106A631B8A8E0800AA3A86 /* Face.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Face.cpp; sourceTree = SOURCE_ROOT; };
+		32106A641B8A8E0800AA3A86 /* Face.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Face.h; sourceTree = SOURCE_ROOT; };
+		32106A651B8A8E0800AA3A86 /* HalfEdge.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = HalfEdge.cpp; sourceTree = SOURCE_ROOT; };
+		32106A661B8A8E0800AA3A86 /* HalfEdge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HalfEdge.h; sourceTree = SOURCE_ROOT; };
+		32106A671B8A8E0800AA3A86 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = SOURCE_ROOT; };
+		32106A681B8A8E0800AA3A86 /* Mesh.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Mesh.cpp; sourceTree = SOURCE_ROOT; };
+		32106A691B8A8E0800AA3A86 /* Mesh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mesh.h; sourceTree = SOURCE_ROOT; };
+		32106A6A1B8A8E0800AA3A86 /* MeshIO.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MeshIO.cpp; sourceTree = SOURCE_ROOT; };
+		32106A6B1B8A8E0800AA3A86 /* MeshIO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeshIO.h; sourceTree = SOURCE_ROOT; };
+		32106A721B8A8E1500AA3A86 /* Types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Types.h; sourceTree = SOURCE_ROOT; };
+		32106A731B8A8E1500AA3A86 /* Vertex.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Vertex.cpp; sourceTree = SOURCE_ROOT; };
+		32106A741B8A8E1500AA3A86 /* Vertex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vertex.h; sourceTree = SOURCE_ROOT; };
+		32106A7D1B8A91D100AA3A86 /* MeshBuilder.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MeshBuilder.cpp; sourceTree = SOURCE_ROOT; };
+		32106A7E1B8A91D100AA3A86 /* MeshBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeshBuilder.h; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		32106A381B8A1EB800AA3A86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32106A481B8A1ED100AA3A86 /* GLUT.framework in Frameworks */,
+				32106A461B8A1EC400AA3A86 /* OpenGL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		32106A321B8A1EB800AA3A86 = {
+			isa = PBXGroup;
+			children = (
+				32106A471B8A1ED100AA3A86 /* GLUT.framework */,
+				32106A451B8A1EC400AA3A86 /* OpenGL.framework */,
+				32106A3D1B8A1EB800AA3A86 /* subdivide */,
+				32106A3C1B8A1EB800AA3A86 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		32106A3C1B8A1EB800AA3A86 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				32106A3B1B8A1EB800AA3A86 /* subdivide */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		32106A3D1B8A1EB800AA3A86 /* subdivide */ = {
+			isa = PBXGroup;
+			children = (
+				32106A5E1B8A562D00AA3A86 /* Subdivider.cpp */,
+				32106A5F1B8A562D00AA3A86 /* Subdivider.h */,
+				32106A611B8A8E0800AA3A86 /* Edge.cpp */,
+				32106A621B8A8E0800AA3A86 /* Edge.h */,
+				32106A631B8A8E0800AA3A86 /* Face.cpp */,
+				32106A641B8A8E0800AA3A86 /* Face.h */,
+				32106A651B8A8E0800AA3A86 /* HalfEdge.cpp */,
+				32106A661B8A8E0800AA3A86 /* HalfEdge.h */,
+				32106A671B8A8E0800AA3A86 /* main.cpp */,
+				32106A681B8A8E0800AA3A86 /* Mesh.cpp */,
+				32106A691B8A8E0800AA3A86 /* Mesh.h */,
+				32106A7D1B8A91D100AA3A86 /* MeshBuilder.cpp */,
+				32106A7E1B8A91D100AA3A86 /* MeshBuilder.h */,
+				32106A6A1B8A8E0800AA3A86 /* MeshIO.cpp */,
+				32106A6B1B8A8E0800AA3A86 /* MeshIO.h */,
+				32106A721B8A8E1500AA3A86 /* Types.h */,
+				32106A731B8A8E1500AA3A86 /* Vertex.cpp */,
+				32106A741B8A8E1500AA3A86 /* Vertex.h */,
+			);
+			path = subdivide;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		32106A3A1B8A1EB800AA3A86 /* subdivide */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32106A421B8A1EB800AA3A86 /* Build configuration list for PBXNativeTarget "subdivide" */;
+			buildPhases = (
+				32106A371B8A1EB800AA3A86 /* Sources */,
+				32106A381B8A1EB800AA3A86 /* Frameworks */,
+				32106A391B8A1EB800AA3A86 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = subdivide;
+			productName = subdivide;
+			productReference = 32106A3B1B8A1EB800AA3A86 /* subdivide */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		32106A331B8A1EB800AA3A86 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Rohan Sawhney";
+				TargetAttributes = {
+					32106A3A1B8A1EB800AA3A86 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+				};
+			};
+			buildConfigurationList = 32106A361B8A1EB800AA3A86 /* Build configuration list for PBXProject "subdivide" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 32106A321B8A1EB800AA3A86;
+			productRefGroup = 32106A3C1B8A1EB800AA3A86 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				32106A3A1B8A1EB800AA3A86 /* subdivide */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		32106A371B8A1EB800AA3A86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32106A701B8A8E0800AA3A86 /* Mesh.cpp in Sources */,
+				32106A7F1B8A91D100AA3A86 /* MeshBuilder.cpp in Sources */,
+				32106A751B8A8E1500AA3A86 /* Vertex.cpp in Sources */,
+				32106A6D1B8A8E0800AA3A86 /* Face.cpp in Sources */,
+				32106A6E1B8A8E0800AA3A86 /* HalfEdge.cpp in Sources */,
+				32106A6C1B8A8E0800AA3A86 /* Edge.cpp in Sources */,
+				32106A6F1B8A8E0800AA3A86 /* main.cpp in Sources */,
+				32106A711B8A8E0800AA3A86 /* MeshIO.cpp in Sources */,
+				32106A601B8A562D00AA3A86 /* Subdivider.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		32106A401B8A1EB800AA3A86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		32106A411B8A1EB800AA3A86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		32106A431B8A1EB800AA3A86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					/usr/local/Cellar/eigen/3.2.4/include/eigen3,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		32106A441B8A1EB800AA3A86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					/usr/local/Cellar/eigen/3.2.4/include/eigen3,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		32106A361B8A1EB800AA3A86 /* Build configuration list for PBXProject "subdivide" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32106A401B8A1EB800AA3A86 /* Debug */,
+				32106A411B8A1EB800AA3A86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32106A421B8A1EB800AA3A86 /* Build configuration list for PBXNativeTarget "subdivide" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32106A431B8A1EB800AA3A86 /* Debug */,
+				32106A441B8A1EB800AA3A86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 32106A331B8A1EB800AA3A86 /* Project object */;
+}
