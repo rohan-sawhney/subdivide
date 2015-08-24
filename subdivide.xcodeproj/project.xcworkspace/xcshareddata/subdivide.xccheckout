@@ -12,20 +12,24 @@
 	<dict>
 		<key>93012211585513E702385219484BD8E8D4D7E84E</key>
 		<string>https://github.com/rohan-sawhney/medial-axis-transform-2d.git</string>
+		<key>A6E65D7F0468CC9B3B1E26E6DB1558C0FA175078</key>
+		<string>https://github.com/rohan-sawhney/subdivide.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>subdivide/subdivide.xcodeproj</string>
+	<string>subdivide.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>93012211585513E702385219484BD8E8D4D7E84E</key>
 		<string>../../..</string>
+		<key>A6E65D7F0468CC9B3B1E26E6DB1558C0FA175078</key>
+		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/rohan-sawhney/medial-axis-transform-2d.git</string>
+	<string>https://github.com/rohan-sawhney/subdivide.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>93012211585513E702385219484BD8E8D4D7E84E</string>
+	<string>A6E65D7F0468CC9B3B1E26E6DB1558C0FA175078</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
@@ -34,7 +38,15 @@
 			<key>IDESourceControlWCCIdentifierKey</key>
 			<string>93012211585513E702385219484BD8E8D4D7E84E</string>
 			<key>IDESourceControlWCCName</key>
-			<string>C++</string>
+			<string></string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>A6E65D7F0468CC9B3B1E26E6DB1558C0FA175078</string>
+			<key>IDESourceControlWCCName</key>
+			<string>subdivide</string>
 		</dict>
 	</array>
 </dict>

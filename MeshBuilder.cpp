@@ -32,6 +32,7 @@ void MeshBuilder::preallocateMeshElements(const MeshData& data, Mesh& mesh)
     mesh.vertices.clear();
     mesh.edges.clear();
     mesh.faces.clear();
+    mesh.boundaries.clear();
     
     mesh.halfEdges.reserve(nHE);
     mesh.vertices.reserve(nV);
