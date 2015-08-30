@@ -112,12 +112,6 @@ void keyboard(unsigned char key, int x0, int y0)
         case 'q':
             subdivider.process(mesh);
             break;
-        case GLUT_KEY_UP:
-            z += 0.03;
-            break;
-        case GLUT_KEY_DOWN:
-            z -= 0.03;
-            break;
     }
     
     glutPostRedisplay();
