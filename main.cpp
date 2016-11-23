@@ -18,6 +18,7 @@ double y = 0;
 double z = -2.5;
 
 std::vector<std::string> paths = {"/Users/rohansawhney/Desktop/developer/C++/subdivide/box.obj",
+                                  "/Users/rohansawhney/Desktop/developer/C++/subdivide/hemisphere.obj",
                                   "/Users/rohansawhney/Desktop/developer/C++/subdivide/icosahedron.obj",
                                   "/Users/rohansawhney/Desktop/developer/C++/subdivide/gourd.obj",
                                   "/Users/rohansawhney/Desktop/developer/C++/subdivide/teddy.obj"};
@@ -94,7 +95,7 @@ void keyboard(unsigned char key, int x0, int y0)
         case ' ':
             static int i = 0;
             i++;
-            if (i == 4) i = 0;
+            if (i == 5) i = 0;
             mesh.read(paths[i]);
             break;
         case 'a':

@@ -8,7 +8,7 @@ void Subdivider::createNewEdgeVertex(Eigen::Vector3d& position,
     VertexCIter v1 = he->vertex;
     VertexCIter v2 = he->flip->vertex;
     
-    if (he->onBoundary) {
+    if (he->flip->onBoundary) {
         position = (v1->position + v2->position) * 0.5;
         
     } else {
